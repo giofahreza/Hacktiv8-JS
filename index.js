@@ -200,3 +200,80 @@
 //   console.log(i);
 //   i+=2;
 // } while (i <= 10);
+
+// -------------------------------------------------------
+// Array built-in function
+
+// var cars = ["BMW", "Ford", "Fiat", "Audi"];
+// cars = cars.concat(["Toyota", "Daihatsu"]);
+
+// console.log(cars);
+// cars[1] = "Toyota";
+// cars[2] = "Daihatsu";
+// console.log(cars);
+
+// cars.push("Suzuki");
+// console.log(cars);
+
+// cars.pop();
+// console.log(cars);
+
+// cars.shift();
+// console.log(cars);
+
+// cars.unshift("Suzuki");
+// console.log(cars);
+
+// var car = cars.join(" - ");
+// console.log(car);
+// console.log(typeof car);
+
+// cars.sort();
+// console.log(cars);
+
+// cars.sort().reverse();
+// console.log(cars);
+
+// cars.splice(0, 3, "Toyota", "Daihatsu", "Suzuki");
+// console.log(cars);
+
+// var car = cars.join("-");
+// console.log(car);
+// console.log(car.split("-"));
+
+// var employee = "Andi|Budi|Caca";
+// console.log(employee);
+// console.log(employee.split("|"));
+
+// -------------------------------------------------------
+// Object structure
+
+// var year = new Date().getFullYear();
+
+// function hello() {
+//   console.log("Hello " + this.nama + "!");
+// }
+
+// var a = {
+//   nama: "Andi",
+//   umur: 20,
+//   pekerjaan: "Developer",
+//   countBornYear: function() {
+//     return year - this.umur;
+//   },
+//   sayHello: hello
+// }
+
+
+// console.log(a.umur);
+// a.umur = 25;
+// console.log(a.umur);
+
+// console.log(a.countBornYear());
+// a.sayHello();
+
+// var person = Object.assign(a);
+// console.log(person);
+
+// var keys = Object.keys(a);
+// console.log(keys);
